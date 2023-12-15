@@ -3,7 +3,7 @@ Mini news portal.
 
 Urls:
 
-GET news/ - gets all news from all moderators
+GET news/ - gets all news from all moderators. Does not require auth
 
 POST auth/ - generate auth token for moderators
 
