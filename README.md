@@ -2,10 +2,15 @@
 Mini news portal.
 
 Urls:
+
 GET news/ - gets all news from all moderators
+
 POST auth/ - generate auth token for moderators
+
 POST news/create - creating news. Needs auth. Only for moderators
+
 GET news/by-token - gets all news of authorized moderator
+
 PUT news/:id/update - changes news of moderator
 
 Postman collection: https://galactic-zodiac-385481.postman.co/workspace/web-2023~6ab735d1-0625-46db-959f-9c75dc753b66/collection/10483724-00cc8fc2-b607-469f-85c5-1609753ceb8b?action=share&creator=10483724
